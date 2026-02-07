@@ -28,6 +28,9 @@ function transformStateWithClones(state, actions) {
         // Reseta para um objeto vazio
         stateCopy = {};
         break;
+        
+      default:
+        break;
     }
 
     // Atualizamos o estado atual para a próxima volta do loop
